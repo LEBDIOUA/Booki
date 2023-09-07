@@ -1,0 +1,44 @@
+@media (max-width: 1024px){
+    h3{
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .filtre p{
+        width: 100%;
+    }
+    .hebergements-and-populaires{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .hebergements{
+        width: 100%;
+    }
+    .populaires{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .populaires a{
+        width: 31.7%;
+        height: auto;
+    }
+    .populaires h2{
+        width: 100%;
+    }
+    .activite{
+        height: 270px;
+    }
+    .activite img{
+        height: 200px;
+    }
+    .activite h3{
+        padding: 19px 20px; 
+        box-sizing: border-box;
+    }
+}
