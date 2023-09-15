@@ -1,11 +1,9 @@
 @media (max-width: 1024px){
-    h3{
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 15px;
+    .result-recherch h3{
+        font-size: clamp(12.5px, 1.45vw, 14px);
     }
-    p{
-        font-size: 13px;
+    .result-recherch p{
+        font-size: clamp(12.5px, 1.35vw, 13px);
     }
     .filtre p{
         width: 100%;
